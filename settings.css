@@ -1,0 +1,130 @@
+:root {
+  --bkgColor: rgb(225, 240, 254);
+  --textColor: rgb(20, 20, 20);
+  --textSize: 3vh;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 30vw;
+    height: 100vh;
+    background-image: url("left.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.center {
+    width: 30vw;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.43);
+    position: fixed;
+    top: 45vh;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 7vh;
+    color: white;
+    font-style: italic;
+    margin: 1vh 0px 0px 0px;
+    font-weight: bolder;
+}
+
+.right  {
+    width: 70vw;
+    height: 100vh;
+    background-color: var(--bkgColor);
+}
+
+.first {
+    width: 70vw;
+    height: 28vh;
+    background-color: var(--bkgColor);
+    box-shadow: 10px 10px 20px white;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    font-size: var(--textSize);
+    color:red;
+}
+
+p {
+    color: var(--textColor);
+    font-size: var(--textSize);
+    padding: 10vh;
+}
+
+.second {
+    width: 70vw;
+    height: 40vh;
+    background-color: rgb(218, 237, 244) ;
+    box-shadow: 5px 5px 10px 10px rgb(208, 208, 208);
+    z-index: 10;
+    padding: 25px 30px;
+}
+
+.thirt {
+    width: 70vw;
+    height:32vh;
+}
+
+.txtT {
+    padding: 0 0 0 5vh;
+    font-size: 2vh;
+}
+
+.button {
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    background-color: rgb(74, 162, 3);
+    border-radius: 5vh;
+    margin: 5vh 0vh 2vh 5vh;
+    box-shadow: 0.5vh 0.5vh 1.6vh rgb(195, 195, 195);
+    font-size: 2.5vh;
+    font-style: oblique;
+}
+
+.button:hover {
+    background-color: rgb(75, 144, 18);
+    scale: 1.05;
+    transition: 1s;
+}
+
+.conta  {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.input {
+    width: 30vw;
+    height:  10vh ;
+}
+
+input {
+    width: 30vw;
+    height: 4vh;
+    margin: 1vh 0 2vh 0;
+    border-radius: 2vh;
+    border: none;
+    box-shadow: 0.3vh 0.3vh 0.77vh lightcyan ;
+    color: blue;
+    font-size: 2vh;
+    padding: 0 0 0 2vh;
+}
+
